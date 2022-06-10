@@ -22,18 +22,18 @@ while True:
         playerchoice= input('pick from rock, paper or scissors:')
     
     if playerchoice =='rock':
-        print(name,'chooses',playerchoice)
+        print(name,':', (playerchoice))
     elif playerchoice =='paper':
-        print(name, 'chooses',playerchoice)
+        print(name,':', (playerchoice))
     elif playerchoice=='scissors':
-        print(name, 'chooses',playerchoice)
+        print(name,':', (playerchoice))
 
     if pcoptions =='rock':
-        print('computer chooses',pcoptions)
+        print('computer:',(pcoptions))
     elif pcoptions =='paper':
-        print('computer chooses',pcoptions)
+        print('computer:',(pcoptions))
     elif pcoptions=='scissors':
-        print('computer chooses',pcoptions)
+        print('computer:',(pcoptions))
 
     if playerchoice==pcoptions:
         print('oops!! its a tie, play again')
