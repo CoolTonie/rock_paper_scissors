@@ -29,11 +29,11 @@ while True:
         print(name,':', (playerchoice))
 
     if pcoptions =='rock':
-        print('computer:',(pcoptions))
+        print('computer :',(pcoptions))
     elif pcoptions =='paper':
-        print('computer:',(pcoptions))
+        print('computer :',(pcoptions))
     elif pcoptions=='scissors':
-        print('computer:',(pcoptions))
+        print('computer :',(pcoptions))
 
     if playerchoice==pcoptions:
         print('oops!! its a tie, play again')
